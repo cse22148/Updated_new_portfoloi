@@ -158,7 +158,7 @@ export default function ResumePage() {
     },
   ]
 
-  const projeconst  = [
+  const  projectsData   = [
   {
     title: "FoodShare (RefedConnect)",
     subtitle: "Donation Management System",
