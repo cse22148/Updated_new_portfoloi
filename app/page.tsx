@@ -158,36 +158,46 @@ export default function ResumePage() {
     },
   ]
 
-  const projectsData = [
-    {
-      title: "FoodShare (RefedConnect)",
-      subtitle: "Donation Management System",
-      description:
-        "A comprehensive food donation platform with multi-role dashboard system for Donors, NGOs, and Biogas Agents. Features secure authentication, real-time donation tracking, and location-based routing for efficient pickup coordination.",
-      features: ["Multi-role dashboard", "10+ REST APIs", "Real-time tracking", "Location-based routing"],
-      tech: ["Node.js", "Express.js", "MongoDB", "JavaScript", "Tailwind CSS"],
-      links: { github: "#", live: "#" },
-      symbol: "🍽️",
+  const projeconst projectsData = [
+  {
+    title: "FoodShare (RefedConnect)",
+    subtitle: "Donation Management System",
+    description:
+      "A comprehensive food donation platform with multi-role dashboard system for Donors, NGOs, and Biogas Agents. Features secure authentication, real-time donation tracking, and location-based routing for efficient pickup coordination.",
+    features: ["Multi-role dashboard", "10+ REST APIs", "Real-time tracking", "Location-based routing"],
+    tech: ["Node.js", "Express.js", "MongoDB", "JavaScript", "Tailwind CSS"],
+    links: {
+      github: "https://github.com/cse22148/Final_RefedConnect",
+      live: "https://final-refed-connect.vercel.app/"
     },
-    {
-      title: "Team Pulse Dashboard",
-      subtitle: "Productivity Tool",
-      description: "Built a React-based dashboard for tracking team productivity with Power BI integration.",
-      features: ["Role-based access", "Real-time visualization", "Data analytics"],
-      tech: ["React.js", "Power BI", "JavaScript"],
-      links: { github: "#", live: "#" },
-      symbol: "📊",
+    symbol: "🍽️",
+  },
+  {
+    title: "Team Pulse Dashboard",
+    subtitle: "Productivity Tool",
+    description:
+      "Built a React-based dashboard for tracking team productivity with Power BI integration. Implemented role-based access and real-time data visualization for better decision-making.",
+    features: ["Role-based access", "Real-time visualization", "Data analytics"],
+    tech: ["React.js", "Power BI", "JavaScript"],
+    links: {
+      github: "https://github.com/cse22148/appversal_dashboard",
+      live: "https://appversal-assignmentbychanchal.vercel.app/"
     },
-    {
-      title: "Simon Says Game",
-      subtitle: "Interactive Memory Game",
-      description: "Developed a browser-based memory game using HTML, CSS, and JavaScript.",
-      features: ["Interactive UI", "Logic flow", "Debugging"],
-      tech: ["HTML5", "CSS3", "JavaScript"],
-      links: { github: "#" },
-      symbol: "🎮",
+    symbol: "📊",
+  },
+  {
+    title: "Simon Says Game",
+    subtitle: "Interactive Memory Game",
+    description:
+      "Developed a browser-based memory game using HTML, CSS, and JavaScript. Enhanced logic flow, debugging, and interactive UI for improved gameplay.",
+    features: ["Interactive UI", "Logic flow", "Debugging"],
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    links: {
+      github: "https://github.com/cse22148/Simon-Says-Memory-Game",
     },
-  ]
+    symbol: "🎮",
+  },
+]
 
   const certificationsData = [
     {
